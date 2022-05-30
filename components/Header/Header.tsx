@@ -6,7 +6,7 @@ import { motion } from 'framer-motion'
 
 function Header() {
   return (
-    <motion.div className='mx-auto' initial={{scale: .5, y: -200}} animate={{scale: 1, y: 0}} transition={{duration: 1.5, type: 'spring'}}>
+    <motion.div className='mx-auto'>
         <HeaderContainer>
             <Image src={RespectLogo} height='100px' width='100px'/>
             <p className='my-auto ml-10 text-7xl font-serif'>
